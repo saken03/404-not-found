@@ -1,0 +1,120 @@
+.html {
+  height: 1000px;
+}
+
+.homepage {
+  width: 133px;
+  height: 25px;
+  
+  font-family: 'Inconsolata';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 25px;
+  letter-spacing: -0.08em;
+  text-transform: uppercase;
+  
+  color: #333333;
+}
+
+.page {
+  /* background-color: blanchedalmond; */
+  display: flex;
+}
+
+.scarecrow-container {
+  flex: 1;
+  /* top: 24.54%;
+  bottom: 34.03%; */
+  height: 100%;
+}
+
+.scarecrow {
+  height: 430px;
+  padding-left: 100px;
+}
+
+.text {
+  /* background-color: aquamarine; */
+  flex: 1;
+}
+
+.bad-news {
+  width: 100%;
+  max-width: 540px;
+  height: 190px;
+  
+  font-family: 'Space Mono';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 95px;
+  letter-spacing: -0.035em;
+  
+  /* Gray 1 */
+  
+  color: #333333;
+
+  padding-bottom: 10px;
+  background-color: aqua;
+}
+
+.content {
+  /* width: 100%; */
+
+  font-family: 'Space Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: -0.035em;
+
+  /* Gray 2 */
+
+  color: #4F4F4F;
+
+  padding-top: 10px;
+}
+
+.back-home {
+  font-family: 'Space Mono';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  /* identical to box height */
+
+  letter-spacing: -0.035em;
+  text-transform: uppercase;
+
+  background: #333333;
+  color: white;
+  padding-top: 24px;
+  padding-bottom: 23px;
+  padding-left: 43px;
+  padding-right: 43px;
+}
+
+.created-by {
+  text-align: center;
+  margin-top: 140px;
+  height: 17px;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  color: #BDBDBD;
+}
+
+@media screen and (max-width: 900px) {
+  .page {
+    flex-direction: column;
+  }
+  .scarecrow {
+    padding-left: 0;
+  }
+}
